@@ -15,10 +15,10 @@ const bq = new BigQuery({
   projectId: process.env.BQ_PROJECT_ID || 'meli-bi-data',
 })
 
-const PERSONAS              = '`meli-sbox.XDCLRM03.TARGOS_AA_APP_BBDD_PERSONAS`'
-const NUEVOS_INGRESOS_TABLE = '`meli-sbox.XDCLRM03.TARGOS_AA_APP_NUEVOS_INGRESOS`'
-const CASILLEROS_TABLE      = '`meli-sbox.XDCLRM03.TARGOS_AA_APP_CASILLEROS`'
-const CASILLEROS_HIST       = '`meli-sbox.XDCLRM03.TARGOS_AA_APP_CASILLEROS_HISTORIAL`'
+const PERSONAS              = '`meli-sbox.ARGOS.TARGOS_AA_APP_BBDD_PERSONAS`'
+const NUEVOS_INGRESOS_TABLE = '`meli-sbox.ARGOS.TARGOS_AA_APP_NUEVOS_INGRESOS`'
+const CASILLEROS_TABLE      = '`meli-sbox.ARGOS.TARGOS_AA_APP_CASILLEROS`'
+const CASILLEROS_HIST       = '`meli-sbox.ARGOS.TARGOS_AA_APP_CASILLEROS_HISTORIAL`'
 
 // Cambiar EXPIRY_SECONDS para ajustar el tiempo de expiración
 const EXPIRY_SECONDS = 11 * 60 * 60 // 11 horas
